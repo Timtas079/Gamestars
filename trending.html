@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GameStars</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <header>
+    <div class="nav container">
+      <a href="index.html" class="logo">Game<span>Stars</span></a>
+
+      <div class="nav-icons">
+        <i class='bx bx-bell' id="bell-icon"><span></span></i>
+        <div id="blur">
+          <button class='bx bx-user' class="open-button" onclick="openForm()"></button>
+
+          <div class="form-popup" id="myForm">
+            <form action="/action_page.php" class="form-container">
+              <h1>Login</h1>
+
+              <label for="email"><b>Email</b></label>
+              <input type="text" placeholder="Enter Email" name="email" required>
+
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+
+              <button type="submit" class="btr">Login</button>
+              <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+          </div>
+        </div>
+
+
+        <div class="menu-icon">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </div>
+      <div class="menu">
+        <img src="img/menu.png">
+        <div class="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="rating.html">Games</a></li>
+          <li><a href="trending.html">Trending</a></li>
+          <li><a href="merch.html">Merch</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </div>
+      </div>
+      <div class="notification">
+        <div class="notification-box">
+          <i class='bx bxs-check-circle'></i>
+          <p>Someone liked your review.</p>
+        </div>
+        <div class="notification-box box-color">
+          <i class='bx bxs-x-circle'></i>
+          <p>Someone disliked your review.</p>
+        </div>
+      </div>
+  </header>
+  <main>
+
+    <section id='fronttrend'>
+      <article id='fronttekst'>
+        <p id='frontp'>Welke spellen spelen<br> wij nu in 2023?</p><br><br><br><br><br>
+        <p id='frontp1'>Dit is trending in 2023:</p>
+        <br><br>
+        <article id='formartikel'>
+          <a href="rating.html" id='gamesknop'>Alle Games</a>
+          <a href="merch.html" id='merchknop'>Merch</a>
+        </article>
+      </article>
+      <article id='frontfoto'>
+        <img id='engefoto' src='img/assassinscreedguy.png' alt='beep'>
+      </article>
+      <img id='haloachter' src="img/haloachtergrond.jpg">
+    </section>
+    <section id='trendingcar'>
+
+
+      <div class="containercaro">
+        <div class="card-carousel">
+          <div class="card" id="1">
+            <div class="image-container"></div>
+            <p class='spelnaam'>Ghost Of Tsushima</p><br><br><br>
+            <a class="gotopage" href="tsushima.html">Go to Page</a>
+          </div>
+          <div class="card" id="2">
+            <div class="image-container"></div>
+            <p class='spelnaam'>Cyberpunk 2077</p><br><br><br>
+            <a class="gotopage" href="cyberpunk.html">Go to Page</a>
+          </div>
+          <div class="card" id="3">
+            <div class="image-container"></div>
+            <p class='spelnaam'>Resident Evil: Village</p><br><br><br>
+            <a class="gotopage" href="residentevil.html">Go to Page</a>
+          </div>
+          <div class="card" id="4">
+            <div class="image-container"></div>
+            <p class='spelnaam'>Dying Light 2</p><br><br><br>
+            <a class="gotopage" href="dyinglight.html">Go to Page</a>
+          </div>
+          <div class="card" id="5">
+            <div class="image-container"></div>
+            <p class="spelnaam">HALO Infinite</p><br><br><br>
+            <a class="gotopage" href="halo.html">Go to Page</a>
+          </div>
+        </div>
+        <a href="#" class="visuallyhidden card-controller">Carousel controller</a>
+      </div>
+
+
+    </section>
+  </main>
+  <footer class="footer-distributed">
+
+    <div class="footer-left">
+
+      <h3>GAME<span>STARS</span></h3>
+
+      <p class="footer-links">
+        <a href="index.html">Home</a>
+        ·
+        <a href="rating.html">Games</a>
+        ·
+        <a href="trending.html">Trending</a>
+        ·
+        <a href="merch.html">Merch</a>
+        ·
+        <a href="contact.html">Contact</a>
+      </p>
+
+      <p class="footer-company-name">gamestars &copy; 2023</p>
+    </div>
+
+    <div class="footer-center">
+
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span>Leiden</span>Lammenschans, Betaplein 18</p>
+      </div>
+
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>0612345678</p>
+      </div>
+
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:support@company.com">6025802@mborijnland.nl</a></p>
+      </div>
+
+    </div>
+
+    <div class="footer-right">
+
+      <p class="footer-company-about">
+        <span>Over Ons</span>
+        Gamestars is een website waar je games kunt zoeken die je wilt spelen<br> en kunt reviewen nadat je ze hebt gespeeld
+      </p>
+
+      <div class="footer-icons">
+
+        <a href='#'><img class=footerpictures src='img/twitter2.png'></i></a>
+        <a href="#"><img class=footerpictures src='img/Facebook_icon.svg.png'></i></a>
+        <a href="#"><img class=footerpictures src='img/instagramicon.png'></i></a>
+        <a href="#"><img class=footerpictures src='img/LinkedIn_logo_initials.png'></i></a>
+
+      </div>
+
+    </div>
+
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

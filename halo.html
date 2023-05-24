@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GameStars</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <header>
+    <div class="nav container">
+      <a href="index.html" class="logo">Game<span>Stars</span></a>
+
+      <div class="nav-icons">
+        <i class='bx bx-bell' id="bell-icon"><span></span></i>
+        <div id="blur">
+          <button class='bx bx-user' class="open-button" onclick="openForm()"></button>
+
+          <div class="form-popup" id="myForm">
+            <form action="/action_page.php" class="form-container">
+              <h1>Login</h1>
+
+              <label for="email"><b>Email</b></label>
+              <input type="text" placeholder="Enter Email" name="email" required>
+
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+
+              <button type="submit" class="btr">Login</button>
+              <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+          </div>
+        </div>
+
+
+        <div class="menu-icon">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </div>
+      <div class="menu">
+        <img src="img/menu.png">
+        <div class="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="rating.html">Games</a></li>
+          <li><a href="trending.html">Trending</a></li>
+          <li><a href="merch.html">Merch</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </div>
+      </div>
+      <div class="notification">
+        <div class="notification-box">
+          <i class='bx bxs-check-circle'></i>
+          <p>Someone liked your review.</p>
+        </div>
+        <div class="notification-box box-color">
+          <i class='bx bxs-x-circle'></i>
+          <p>Someone disliked your review.</p>
+        </div>
+      </div>
+  </header>
+<main class="battlefield2044text">
+  <img class="review1" src="img/haloreview.webp">
+  <container id="pfff">
+  <h1>HALO Infinite</h1>
+  <p>Halo Infinite has a lot to prove. Not only does the game have to make up for Halo 5’s weak campaign, but it was also subject to widespread criticism at several points during its development cycle. Now that the game is here, the question is, "how did it do?"
+
+Halo Infinite is unlike any other Halo game we’ve seen before, and it is a heck of a lot of fun to play. The game takes some time to get going, but switching to an open-world model was clearly the right move.
+
+In this Halo Infinite review, we’ll take a look at how the game manages to break the mold and do something new, while also remaining familiar and faithful to the classic Halo titles.
+Halo Infinite is set two years after the conclusion of Halo 5, and six months after the brutal alien faction known as The Banished seized control of Zeta Halo: one of the ancient superweapons capable of wiping out all life in the galaxy.
+
+
+</p>
+      <p class="star-rating">
+    <i class="my-star star-1" data-star="1"></i>
+    <i class="my-star star-2" data-star="2"></i>
+    <i class="my-star star-3" data-star="3"></i>
+    <i class="my-star star-4" data-star="4"></i>
+    <i class="my-star star-5" data-star="5"></i>
+</p>
+</container>
+</main>
+  <form id="contactformreview">
+  <input id='justtext' type="text" id="fname" name="fname"><br><br>
+        <input id='submitknop' type="submit" value="Verstuur">
+     </form>
+
+  </div>
+  <script src="js/main.js"></script>
+    <footer id='footertest' class="footer-distributed">
+
+    <div class="footer-left">
+
+      <h3>GAME<span>STARS</span></h3>
+
+      <p class="footer-links">
+        <a href="index.html">Home</a>
+        ·
+        <a href="rating.html">Games</a>
+        ·
+        <a href="trending.html">Trending</a>
+        ·
+        <a href="merch.html">Merch</a>
+        ·
+        <a href="contact.html">Contact</a>
+      </p>
+
+      <p class="footer-company-name">gamestars &copy; 2023</p>
+    </div>
+
+    <div class="footer-center">
+
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span>Leiden</span>Lammenschans, Betaplein 18</p>
+      </div>
+
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>0612345678</p>
+      </div>
+
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:support@company.com">6025802@mborijnland.nl</a></p>
+      </div>
+
+    </div>
+
+    <div class="footer-right">
+
+      <p class="footer-company-about">
+        <span>Over Ons</span>
+        Gamestars is een website waar je games kunt zoeken die je wilt spelen<br> en kunt reviewen nadat je ze hebt gespeeld
+      </p>
+
+      <div class="footer-icons">
+
+        <a href="#"><img class=footerpictures src='img/twitter2.png'></i></a>
+        <a href="#"><img class=footerpictures src='img/Facebook_icon.svg.png'></i></a>
+        <a href="#"><img class=footerpictures src='img/instagramicon.png'></i></a>
+        <a href="#"><img class=footerpictures src='img/LinkedIn_logo_initials.png'></i></a>
+
+      </div>
+
+    </div>
+
+  </footer>
+</body>
+
+</html>
